@@ -15,7 +15,7 @@ public class Main {
         ApiServico apiServico = new ApiServico();
         try {
 
-            EnderecoDto enderecoDto = apiServico.getEndereco("91790010");
+            EnderecoDto enderecoDto = apiServico.getEndereco("01001000");
             System.out.println(enderecoDto.getLogradouro());
 
         } catch (IOException | InterruptedException e) {
